@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Responsive CSS Demo</title>
+<style>
+  /* Internal CSS example */
+  body { font-family: Arial, sans-serif; margin: 0; color: #203047; }
+  header { background: #203b61; color: white; padding: 1.5rem; text-align: center; }
+  .layout { display: flex; gap: 1rem; padding: 1.5rem; }
+  .panel { flex: 1; padding: 1rem; background: #edf2f8; border-radius: 8px; }
+  @media (max-width: 650px) { .layout { flex-direction: column; } }
+</style>
+<link rel="stylesheet" href="external.css">
+</head>
+<body>
+<header><h1>Responsive Layout</h1><p>Resize the browser to see the layout change.</p></header>
+<main class="layout">
+  <section class="panel"><h2>Inline CSS</h2><p style="color:#a52a36;font-weight:bold">This sentence uses inline CSS.</p></section>
+  <section class="panel"><h2>Internal CSS</h2><p>The page header, panels and responsive layout use the style block in the head.</p></section>
+  <section class="panel"><h2>External CSS</h2><p class="external-example">This sentence is styled by external.css.</p></section>
+</main>
+</body></html>

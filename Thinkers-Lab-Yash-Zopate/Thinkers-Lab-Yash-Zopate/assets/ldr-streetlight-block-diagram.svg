@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+<rect width="900" height="300" fill="white"/><text x="450" y="35" text-anchor="middle" font-family="Arial" font-size="25" fill="#203b61">Smart street light — block diagram</text>
+<g stroke="#203b61" stroke-width="3" fill="#edf2f8">
+<rect x="45" y="105" width="190" height="95" rx="12"/><rect x="355" y="105" width="190" height="95" rx="12"/><rect x="665" y="105" width="190" height="95" rx="12"/>
+</g>
+<g font-family="Arial" font-size="19" fill="#203b61" text-anchor="middle"><text x="140" y="145">LDR sensor</text><text x="140" y="173">Voltage divider</text><text x="450" y="145">Arduino Uno</text><text x="450" y="173">Threshold logic</text><text x="760" y="145">LED street lamp</text><text x="760" y="173">via resistor/driver</text></g>
+<g stroke="#b52b37" stroke-width="4" fill="none"><path d="M235 152 H355"/><path d="M545 152 H665"/></g>
+<g fill="#b52b37"><path d="M345 144 L355 152 L345 160"/><path d="M655 144 L665 152 L655 160"/></g>
+<text x="450" y="255" text-anchor="middle" font-family="Arial" font-size="15" fill="#555">Dark environment → lamp ON · Bright environment → lamp OFF (threshold is calibrated in code).</text>
+</svg>

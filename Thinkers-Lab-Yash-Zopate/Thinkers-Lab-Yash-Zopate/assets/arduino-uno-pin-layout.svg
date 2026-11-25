@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="#fff"/>
+<text x="450" y="38" font-size="26" text-anchor="middle" font-family="Arial" fill="#203b61">Arduino Uno — simplified pin overview</text>
+<rect x="270" y="90" width="360" height="350" rx="28" fill="#247b65" stroke="#145343" stroke-width="5"/>
+<rect x="390" y="215" width="120" height="105" rx="8" fill="#20252d"/>
+<text x="450" y="270" fill="white" text-anchor="middle" font-size="20" font-family="Arial">ATmega</text>
+<text x="450" y="294" fill="white" text-anchor="middle" font-size="18" font-family="Arial">328P</text>
+<g font-family="Arial" font-size="15" fill="#fff">
+<text x="292" y="130">DIGITAL PINS</text><text x="292" y="155">0–13</text>
+<text x="292" y="380">POWER</text><text x="292" y="405">5V · 3.3V · GND</text>
+<text x="520" y="130">ANALOG</text><text x="520" y="155">A0–A5</text>
+<text x="520" y="380">USB / DC</text><text x="520" y="405">POWER INPUT</text>
+</g>
+<g stroke="#203b61" stroke-width="3" fill="none">
+<path d="M270 150 H160"/><path d="M630 150 H740"/><path d="M270 390 H160"/><path d="M630 390 H740"/>
+</g>
+<g fill="#203b61" font-family="Arial" font-size="18">
+<text x="45" y="145">Digital I/O</text><text x="750" y="145">Analog input</text>
+<text x="45" y="385">Power pins</text><text x="750" y="385">USB / DC supply</text>
+</g>
+<text x="450" y="485" text-anchor="middle" font-family="Arial" font-size="14" fill="#555">Illustrative learning diagram — consult the official board pinout before wiring.</text>
+</svg>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Student Registration</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<main>
+  <h1>Student Registration Form</h1>
+  <p>Enter the details below. Fields marked required must be completed.</p>
+  <form action="#" method="post">
+    <fieldset><legend>Personal information</legend>
+      <label for="fullname">Full name</label><input id="fullname" name="fullname" type="text" autocomplete="name" required>
+      <label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required>
+      <label for="phone">Mobile number</label><input id="phone" name="phone" type="tel" pattern="[0-9]{10}" placeholder="10 digits">
+      <label for="dob">Date of birth</label><input id="dob" name="dob" type="date">
+    </fieldset>
+    <fieldset><legend>Academic details</legend>
+      <label for="course">Course</label><select id="course" name="course" required><option value="">Choose course</option><option>B.Tech</option><option>BBA</option><option>BCA</option></select>
+      <p>Year of study</p>
+      <label class="inline"><input type="radio" name="year" value="1" required> First year</label>
+      <label class="inline"><input type="radio" name="year" value="2"> Second year</label>
+      <label for="interests">Areas of interest</label><textarea id="interests" name="interests" rows="4"></textarea>
+    </fieldset>
+    <label class="inline"><input type="checkbox" required> I confirm that the information is correct.</label>
+    <button type="submit">Submit registration</button>
+  </form>
+</main>
+</body></html>

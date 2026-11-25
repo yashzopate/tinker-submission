@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; background: #f2f5fa; margin: 0; padding: 2rem 1rem; color: #243044; }
+main { max-width: 650px; margin: auto; background: white; padding: 2rem; border-radius: 12px; }
+fieldset { border: 1px solid #c8d2e0; border-radius: 8px; margin: 1rem 0; padding: 1rem; }
+label { display: block; margin-top: .8rem; }
+input:not([type=radio]):not([type=checkbox]), select, textarea { width: 100%; padding: .65rem; margin-top: .3rem; border: 1px solid #aab6c6; border-radius: 5px; }
+.inline { display: inline-flex; gap: .4rem; align-items: center; margin-right: 1rem; }
+button { margin-top: 1rem; padding: .75rem 1.2rem; border: 0; border-radius: 6px; background: #1d416e; color: white; cursor: pointer; }
